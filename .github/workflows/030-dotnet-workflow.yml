@@ -33,3 +33,10 @@ jobs:
       
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Store build Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: build
+        path: |
+          build
+      
