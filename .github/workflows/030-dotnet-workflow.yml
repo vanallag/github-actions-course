@@ -50,7 +50,7 @@ jobs:
     - name: Run Release Drafter
       uses: release-drafter/release-drafter@v5
       env:
-        GITHUB_TOKEN: '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'      
+        GITHUB_TOKEN: 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    
         
           
       
