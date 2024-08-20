@@ -39,4 +39,14 @@ jobs:
         name: build
         path: |
           03-app-dotnet
+          
+    - name: Create release asset to attach
+      shell: bash
+      run: |
+        tar -czvf build.tar.gz build
+    - uses: release-drafter/release-drafter@v5.21.1
+      env:
+        GITHUB_TOKEN: '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'
+        
+          
       
