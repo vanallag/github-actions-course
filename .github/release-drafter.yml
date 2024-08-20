@@ -42,6 +42,5 @@ version-resolver:
 template: |
   ## Changes
 draft: false
-prerelease: false
 
   $CHANGES
